@@ -1,17 +1,16 @@
 import React from "react";
 import Heading from "../Components/Heading";
 import SkillCard from "../Components/SkillCard";
-import { FaFigma, FaReact, FaGithub, FaBootstrap } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { RiNextjsLine } from "react-icons/ri";
+import { FaFigma, FaGithub, FaBootstrap, FaWordpress, FaGlobe } from "react-icons/fa";
+import { SiElementor } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoCss3 } from "react-icons/io5";
 
 const skills = [
-  { logo: <FaReact />, title: "Wordpress", disc: "UI Library", color: "#61DAFB" },
+  { logo: <FaWordpress />, title: "WordPress", disc: "CMS Platform", color: "#21759B" },
+  { logo: <FaGlobe />, title: "SEO", disc: "Search Engine Optimization", color: "#FF5722" },
+  { logo: <SiElementor />, title: "Elementor", disc: "Page Builder", color: "#92003B" },
   { logo: <FaFigma />, title: "Figma", disc: "Design Tool", color: "#F24E1E" },
-  { logo: <RiTailwindCssFill />, title: "TailWind", disc: "Utility-First CSS", color: "#06B6D4" },
-  { logo: <RiNextjsLine />, title: "Seo", disc: "React Framework", color: "#FFFFFF" },
   { logo: <IoLogoJavascript />, title: "JavaScript", disc: "Client-side scripting", color: "#F7DF1E" },
   { logo: <FaGithub />, title: "Github", disc: "Code collaboration", color: "#E6EDF3" },
   { logo: <FaBootstrap />, title: "BootStrap", disc: "CSS Framework", color: "#7952B3" },
